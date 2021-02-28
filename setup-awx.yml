@@ -9,7 +9,7 @@
       raw: 'apt-get -y update'
 - hosts: awx
   become: yes
-  user: adminlx
+  user: bruno
   roles:
   - { role: install-awx, tags: ["install_awx"]}
     
