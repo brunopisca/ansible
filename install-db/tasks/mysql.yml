@@ -2,6 +2,7 @@
   yum:
     name: "{{ packages }}"
   vars:
+    ansible_python_interpreter: python3
     packages:
     - mariadb-server
     - mariadb
